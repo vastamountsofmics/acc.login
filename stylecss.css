@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+section{
+    width: 100vw;height: 100vh;
+    background-image: url(images/background.jpg);background-size: cover;display: flex;justify-content: center;align-items: center;
+}
+.maindiv{
+    background-color: rgb(255, 255, 255,0.6);display: flex;flex-direction: column;width: 410px;height: 310px;justify-content: center;
+}
+.maindiv h1{
+    margin: 15px;font-size: 35px;
+}
+.input{
+    width: 93%;
+    padding: 8px 18px;
+    margin: 8px 8px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.login{
+    width: 93%;color: white;background-color: darkslategrey;
+    margin: 8px;font-size: 17px;padding: 10px;
+}
+.checkbox{
+    display: flex;justify-content: space-between;width: 93%;
+}
+.checkbox p{
+    margin-right: 150px;
+}
+.checkbox a{
+    text-decoration: none;
+}
+.box{
+    margin-left: 7px;
+}
